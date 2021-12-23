@@ -9,7 +9,7 @@ def lambda_handler(event, context):
 		print("success")
 		return {
 	        'statusCode': 200,
-	        'body': json.dumps('success')
+	        'body': json.dumps('Hello World!')
     	}
 	else:
 		print("invalid")
