@@ -5,7 +5,7 @@ def lambda_handler(event, context):
 	usercredentials = json.loads(postdata)
 	username = usercredentials['username']
 	password = usercredentials['password']
-	if username == 'admin' and password == 'admin':
+	if username == 'admin' and password == '1234':
 		print("success")
 		return {
 	        'statusCode': 200,
