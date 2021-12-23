@@ -38,7 +38,7 @@ Resources:
               type: string
 Outputs:
   UserLoginApi:
-    Value: !Sub "https://${UserAPI}.execute-api.${AWS::Region}.amazonaws.com/Test/hello/"
+    Value: !Sub "https://${UserAPI}.execute-api.${AWS::Region}.amazonaws.com/Test/login"
   MyFunction:
     Value: !GetAtt MyFunction.Arn
   MyFunctionIamRole:
